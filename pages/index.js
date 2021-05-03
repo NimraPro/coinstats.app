@@ -119,7 +119,7 @@ function Coins({ coins }) {
   }
 
   return <div className='content'>
-    <h1>Coinstats</h1><h4> by Nimra</h4>
+    <h2>Coinstats.cloud</h2>
     <InfiniteScroll
       dataLength={cData.length} //This is important field to render the next data
       next={handleFetchData}
